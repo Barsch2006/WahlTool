@@ -248,7 +248,7 @@ app.post('/wahl', (req, res) => {
                                     if (err) {
                                         res.status(400).end('Fehler. Versuche es später erneut.')
                                     } else {
-                                        res.send('Erfolgreich');
+                                        res.send(serverError('Erfolgreich', 'Du hast dich erfolgreich eingewählt.'));
                                         res.end();
                                     }
                                 })
