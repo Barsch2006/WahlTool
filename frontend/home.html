@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="index.js" defer></script>
+    <script src="home.js" defer></script>
+</head>
+
+<body onload="checkHash(); fetchWahlen()">
+    <header>
+        <img src="img/logo.png" class="logo">
+        <h1>GRB-Wahlen</h1>
+        <div><a href='/logout'>Logout</a></div>
+    </header>
+
+    <main>
+        <section class="wahl">
+            <section class="descriptions">
+                
+            </section>
+            <form action="/wahl" method="post">
+                <h2>Erstwahl</h2>
+                <input type="text" id="erstwahl" placeholder="nichts ausgewählt" name="erst" list="erstwahlListe" required />
+                <datalist id="erstwahlListe">
+                    
+                </datalist>
+
+                <h2>Zweitwahl</h2>
+                <input type="text" id="zweitwahl" placeholder="nichts ausgewählt" name="zweit" list="zweitwahlListe" required />
+                <datalist id="zweitwahlListe">
+                    
+                </datalist>
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy;&nbsp;</p><a href="github.com/Barsch2006">Christian F.</a>&nbsp;<p>2023</p>
+        </div>
+        <div style="gap: 6px;">
+            <a href="impressum.html">Impressum</a>
+            <a href="datenschutz.html">Datenschutz</a>
+        </div>
+    </footer>
+</body>
+
+</html>

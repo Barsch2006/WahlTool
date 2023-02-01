@@ -1,0 +1,2 @@
+DB = "Path to Database"
+PUBLIC = "Public Frontend"

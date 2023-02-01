@@ -1,0 +1,77 @@
+@import url(index.css);
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 8px;
+    padding-bottom: 28px;
+    border-radius: 10px;
+    gap: 20px;
+
+    min-width: 26vw;
+    max-width: 26vw;
+    box-shadow: 5px 5px 5px 1px #747474;
+}
+
+main .main-form div {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+main .main-form h1 {
+    margin-bottom: 8px;
+    margin-left: 12px;
+}
+
+main .main-form button {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    main .main-form {
+        min-width: 90vw;
+        max-width: 90vw;
+        min-height: 80vh;
+    }
+}
+
+main .pop-up {
+    background-color: var(--pob-up);
+}
+
+main .login div {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+main .login div input {
+    min-width: 80%;
+    max-width: 80%;
+}
+
+main .login .notarobot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+main .login .notarobot img {
+    min-height: 80px;
+    max-height: 80px;
+    width: auto;
+}

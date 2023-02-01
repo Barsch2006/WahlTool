@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .wahl {
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 30vw;
+}
+
+main .wahl form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+main .wahl .descriptions {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 6px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+main .wahl .descriptions .descript {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 10px;
+    gap: 4px;
+}

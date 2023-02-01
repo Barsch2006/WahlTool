@@ -1,0 +1,34 @@
+@import url(index.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+main section {
+    background-color: var(--white);
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 10px;
+    min-width: 80vw;
+    max-width: 80vw;
+    box-shadow: 5px 5px 5px 1px #747474;
+}
+
+main section h2 {
+    margin-bottom: 6px;
+}
+
+main section p {
+    margin-left: 10px;
+}
+
+main section h4 {
+    margin-left: 10px;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
